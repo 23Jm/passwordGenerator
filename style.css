@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2, 2, 65);
+    padding: 10px;
+}
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: 100px auto 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+h1{
+    color: #fff;
+}
+.green{
+    color: green;
+    padding-bottom: 10px;
+    border-bottom: 5px solid green;
+    width: 270px;
+}
+.container input{
+    margin-top: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgb(194, 230, 194);
+    outline: 0;
+    border: 0;
+    margin-bottom: 25px;
+    border-radius: 2px;
+}
+.copy{
+    width: 20px;
+    position: absolute;
+    top: 243px;
+    right: 60px;
+}
+button{
+    width: 200px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   outline: 0;
+    border: 0;
+    background: rgb(1, 97, 1);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.gen{
+    height: 20px;
+    margin-right: 10px;
+}
